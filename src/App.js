@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Moviecard from './componentes/Moviecard';
 import { useEffect, useState } from "react";
-import iconsearch from "./search.svg"
+import iconsearch from "./search.svg";
+import { HashRouter as Router } from "react-router-dom";  
 
 const defaultmovie = [
     {
@@ -148,7 +149,7 @@ const App = () => {
 
 
     return (
-        <>
+        <Router> 
             <div className='app'>
                 <h1>Hostaar</h1>
                 <div>
@@ -156,7 +157,8 @@ const App = () => {
                         placeholder='Search for a movie'
                         value={movieterm}
                         onChange={(e) => setmovieterm(e.target.value)}
-                        onKeyDown={handleKeyDown} />
+                        onKeyDown={handleKeyDown}
+                    />
                     <img src={iconsearch} alt="search" onClick={() => searchmovie(movieterm)} />
                 </div>
                 {
@@ -164,15 +166,16 @@ const App = () => {
                         <div className='container'>
                             {movies.map((movie) => (
                                 <Moviecard movie={movie} key={movie.imdbID} />
-                            )
-                            )}
+                            ))}
                         </div>
-                    ) : (<div className="empty">
-                        <h2>No movies found</h2>
-                    </div>)
+                    ) : (
+                        <div className="empty">
+                            <h2>No movies found</h2>
+                        </div>
+                    )
                 }
             </div>
-        </>
+        </Router>
     );
 }
 
