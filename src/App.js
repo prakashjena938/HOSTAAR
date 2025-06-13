@@ -3,7 +3,7 @@ import './App.css';
 import Moviecard from './componentes/Moviecard';
 import { useEffect, useState } from "react";
 import iconsearch from "./search.svg";
-import { HashRouter as Router } from "react-router-dom";
+// import { HashRouter as Router } from "react-router-dom";
 
 const defaultmovie = [
     {
@@ -149,7 +149,7 @@ const App = () => {
 
 
     return (
-        <Router>
+        // <Router>
             <div className='app'>
                 <h1>Hostaar</h1>
                 <div>
@@ -175,7 +175,7 @@ const App = () => {
                     )
                 }
             </div>
-        </Router>
+        // </Router>
     );
 }
 
