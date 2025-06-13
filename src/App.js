@@ -3,7 +3,7 @@ import './App.css';
 import Moviecard from './componentes/Moviecard';
 import { useEffect, useState } from "react";
 import iconsearch from "./search.svg";
-import { HashRouter as Router } from "react-router-dom";  
+import { HashRouter as Router } from "react-router-dom";
 
 const defaultmovie = [
     {
@@ -76,34 +76,34 @@ const defaultmovie = [
         "Type": "movie",
         "Poster": "https://m.media-amazon.com/images/M/MV5BOTRlNWQwM2ItNjkyZC00MGI3LThkYjktZmE5N2FlMzcyNTIyXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_SX300.jpg"
     },
-     {
-            "Title": "Iron Man",
-            "Year": "2008",
-            "imdbID": "tt0371746",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg"
-        },
-        {
-            "Title": "Iron Man 3",
-            "Year": "2013",
-            "imdbID": "tt1300854",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMjIzMzAzMjQyM15BMl5BanBnXkFtZTcwNzM2NjcyOQ@@._V1_SX300.jpg"
-        },
-        {
-            "Title": "Iron Man 2",
-            "Year": "2010",
-            "imdbID": "tt1228705",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BYWYyOGQzOGYtMGQ1My00ZWYxLTgzZjktZWYzN2IwYjkxYzM0XkEyXkFqcGc@._V1_SX300.jpg"
-        },
-        {
-            "Title": "The Man in the Iron Mask",
-            "Year": "1998",
-            "imdbID": "tt0120744",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BNDc4YWYzNzEtNWMwMC00Y2ZlLWEzZWEtZDcwYjcwYTE3Y2ZlXkEyXkFqcGc@._V1_SX300.jpg"
-        }
+    {
+        "Title": "Iron Man",
+        "Year": "2008",
+        "imdbID": "tt0371746",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Iron Man 3",
+        "Year": "2013",
+        "imdbID": "tt1300854",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjIzMzAzMjQyM15BMl5BanBnXkFtZTcwNzM2NjcyOQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Iron Man 2",
+        "Year": "2010",
+        "imdbID": "tt1228705",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYWYyOGQzOGYtMGQ1My00ZWYxLTgzZjktZWYzN2IwYjkxYzM0XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Man in the Iron Mask",
+        "Year": "1998",
+        "imdbID": "tt0120744",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDc4YWYzNzEtNWMwMC00Y2ZlLWEzZWEtZDcwYjcwYTE3Y2ZlXkEyXkFqcGc@._V1_SX300.jpg"
+    }
 ]
 // const dfilm = []
 
@@ -149,7 +149,7 @@ const App = () => {
 
 
     return (
-        <Router> 
+        <Router>
             <div className='app'>
                 <h1>Hostaar</h1>
                 <div>
