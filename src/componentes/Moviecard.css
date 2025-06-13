@@ -1,0 +1,111 @@
+/* Main Card */
+.maincard {
+  width: 180px;
+  height: 270px;
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 20px; /* Added space at the bottom */
+}
+
+/* Hover Effect */
+.maincard:hover {
+  transform: scale(1.05);
+}
+
+/* Year Tag */
+.myear {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2px 8px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 12px;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.maincard:hover .myear {
+  opacity: 1;
+}
+
+/* Movie Image */
+.mpic {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mpic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Movie Name + Category */
+.mname {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: #fff;
+  padding: 10px 6px 6px;
+  text-align: center;
+}
+
+.mname h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.mname span {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* Tablet: adjust card size */
+@media (max-width: 768px) {
+  .maincard {
+    width: 150px;
+    height: 230px;
+  }
+
+  .mname h3 {
+    font-size: 13px;
+  }
+
+  .mname span,
+  .myear {
+    font-size: 11px;
+  }
+}
+
+/* Mobile: adjust to smaller layout */
+@media (max-width: 480px) {
+  .maincard {
+    width: 120px;
+    height: 200px;
+  }
+
+  .mname h3 {
+    font-size: 12px;
+  }
+
+  .mname span,
+  .myear {
+    font-size: 10px;
+  }
+
+  .cards-wrapper {
+    gap: 14px;
+    padding: 14px;
+  }
+}
