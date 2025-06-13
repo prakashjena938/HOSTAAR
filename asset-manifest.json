@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/prakashjena938/hostaar.git/static/css/main.c2c31f8a.css",
+    "main.js": "/prakashjena938/hostaar.git/static/js/main.54a9890b.js",
+    "static/js/453.3f682127.chunk.js": "/prakashjena938/hostaar.git/static/js/453.3f682127.chunk.js",
+    "static/media/logo.svg": "/prakashjena938/hostaar.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/prakashjena938/hostaar.git/index.html",
+    "static/media/search.svg": "/prakashjena938/hostaar.git/static/media/search.582e6fdae2c59f4e7b41bc2c538877cd.svg",
+    "main.c2c31f8a.css.map": "/prakashjena938/hostaar.git/static/css/main.c2c31f8a.css.map",
+    "main.54a9890b.js.map": "/prakashjena938/hostaar.git/static/js/main.54a9890b.js.map",
+    "453.3f682127.chunk.js.map": "/prakashjena938/hostaar.git/static/js/453.3f682127.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2c31f8a.css",
+    "static/js/main.54a9890b.js"
+  ]
+}
