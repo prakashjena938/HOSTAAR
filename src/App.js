@@ -107,7 +107,7 @@ const defaultmovie = [
 ]
 // const dfilm = []
 
-const URL = "http://www.omdbapi.com/?i=tt3896198&apikey=35b57794";
+const URL = "https://www.omdbapi.com/?i=tt3896198&apikey=35b57794";
 
 const App = () => {
     const [movies, setmovie] = useState(defaultmovie);
