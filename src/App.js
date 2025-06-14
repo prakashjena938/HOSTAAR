@@ -112,7 +112,7 @@ const URL = "https://www.omdbapi.com/?i=tt3896198&apikey=35b57794";
 const App = () => {
     const [movies, setmovie] = useState(defaultmovie);
     // const [film, setfilm] = useState(dfilm)
-    const [movieterm, setmovieterm] = useState+("");
+    const [movieterm, setmovieterm] = useState("");
 
 
 
@@ -155,7 +155,7 @@ const App = () => {
         // <Router>
             <div className='app'>
                 <h1>Hostaar</h1>
-                <div>
+                <div className="search" >
                     <input
                         placeholder='Search for a movie'
                         value={movieterm}
