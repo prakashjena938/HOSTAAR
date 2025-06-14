@@ -121,7 +121,7 @@ const App = () => {
         if (movieterm) {
             searchmovie(movieterm);
         }
-        else if (movieterm===""){
+        else if (movieterm===" "){
          setmovie(defaultmovie);
         }
         else {
