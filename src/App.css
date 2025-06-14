@@ -90,7 +90,14 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px; /* Added gap for spacing between movie cards */
+  gap: 20px;
+}
+
+/* 🆕 Movie card width for 3-in-a-row */
+.container .movie {
+  width: 30%;
+  max-width: 120px;
+  min-width: 100px;
 }
 
 @media screen and (max-width: 600px) {
@@ -110,6 +117,11 @@ h1 {
   .search img {
     width: 20px;
     height: 20px;
+  }
+
+  /* ✅ Ensures 3 cards per row even on mobile */
+  .container .movie {
+    width: 30%;
   }
 }
 
