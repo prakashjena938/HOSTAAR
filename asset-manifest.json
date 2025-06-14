@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hostaar/static/css/main.c2c31f8a.css",
-    "main.js": "/hostaar/static/js/main.b68d8cb3.js",
+    "main.js": "/hostaar/static/js/main.0395c98b.js",
     "static/js/453.3f682127.chunk.js": "/hostaar/static/js/453.3f682127.chunk.js",
     "index.html": "/hostaar/index.html",
     "static/media/search.svg": "/hostaar/static/media/search.582e6fdae2c59f4e7b41bc2c538877cd.svg",
     "main.c2c31f8a.css.map": "/hostaar/static/css/main.c2c31f8a.css.map",
-    "main.b68d8cb3.js.map": "/hostaar/static/js/main.b68d8cb3.js.map",
+    "main.0395c98b.js.map": "/hostaar/static/js/main.0395c98b.js.map",
     "453.3f682127.chunk.js.map": "/hostaar/static/js/453.3f682127.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2c31f8a.css",
-    "static/js/main.b68d8cb3.js"
+    "static/js/main.0395c98b.js"
   ]
 }
